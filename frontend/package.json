@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "vite build"
   },
   "dependencies": {
     "@stripe/stripe-js": "^7.0.0",
